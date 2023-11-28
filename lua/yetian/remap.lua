@@ -21,7 +21,7 @@ vim.api.nvim_set_keymap("n", "<C-l>", "<Cmd>vsplit<CR>", {noremap = true, silent
 
 
 vim.keymap.set("n", "<C-g>", "<C-w><C-w>", {noremap = true})
-vim.keymap.set("n", "<C-h>", "<C-w>q", {noremap = true})
+vim.keymap.set("n", "<C-w>", "<C-w>q", {noremap = true})
 
 -- Di chuyển dòng xuống
 
