@@ -43,26 +43,10 @@ use {
   "Pocco81/auto-save.nvim",
   config = function()
     require("auto-save").setup({
-      enabled = false,
-      debounce_delay = 500,
-       on_after_save = nil,
+      enabled = true,
+      debounce_delay = 1000,
     })
 
-    -- Bật auto-save khi vào chế độ chèn
-    vim.cmd([[
-      augroup AutoSaveOnInsertEnter
-        autocmd!
-        autocmd InsertEnter * AutoSaveEnable
-      augroup END
-    ]])
-
-    -- Tắt auto-save khi rời khỏi chế độ chèn
-    vim.cmd([[
-      augroup AutoSaveOnInsertLeave
-        autocmd!
-        autocmd InsertLeave * AutoSaveDisable
-      augroup END
-    ]])
   end,
 }
 
@@ -77,8 +61,7 @@ use {
   config = function() require('nvim-ts-autotag').setup {} end
 }
 
-
-use 'prettier/vim-prettier'
+use "prettier/vim-prettier"
 
 use {
     'numToStr/Comment.nvim',
