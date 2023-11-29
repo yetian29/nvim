@@ -45,8 +45,8 @@ use {
     require("auto-save").setup({
       enabled = true,
       debounce_delay = 1000,
-    })
 
+    })
   end,
 }
 
@@ -56,12 +56,11 @@ use {
   config = function() require("nvim-autopairs").setup {} end
 }
 
-use {
-  'windwp/nvim-ts-autotag',
-  config = function() require('nvim-ts-autotag').setup {} end
-}
+use 'windwp/nvim-ts-autotag'
 
-use "prettier/vim-prettier"
+
+use "prettier/prettier"
+
 
 use {
     'numToStr/Comment.nvim',
