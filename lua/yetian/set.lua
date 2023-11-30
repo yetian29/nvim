@@ -1,14 +1,6 @@
 vim.g.netrw_banner = 0
 
 
--- 2 tabs
-vim.opt.tabstop = 2
-vim.opt.softtabstop = 2
-vim.opt.shiftwidth = 2
-vim.opt.expandtab = true
-
-vim.opt.smartindent = true
---
 -- copiar al portapapeles del os
 vim.opt.clipboard = "unnamedplus"
 
