@@ -21,7 +21,7 @@ vim.api.nvim_set_keymap("n", "<C-l>", "<Cmd>vsplit<CR>", {noremap = true, silent
 
 
 vim.keymap.set("n", "<C-g>", "<C-w><C-w>", {noremap = true})
-vim.keymap.set("n", "<C-w>", "<C-w>q", {noremap = true})
+vim.keymap.set("n", "<C-q>", "<C-w>q", {noremap = true})
 
 -- Di chuyển dòng xuống
 
@@ -35,8 +35,8 @@ vim.api.nvim_set_keymap('n', '<C-U>', ':m .-2<CR>', { noremap = true, silent = t
 vim.api.nvim_set_keymap('x', '<C-U>', ":move '<-2<CR>gv=gv", { noremap = true, silent = true })
 
 -- Di chuyển khối mã xuống
-vim.api.nvim_set_keymap('x', '<C-M>', ":move '>+1<CR>gv=gv", { noremap = true, silent = true })
 
+vim.api.nvim_set_keymap('x', '<C-M>', ":move '>+1<CR>gv=gv", { noremap = true, silent = true })
 
 
 
