@@ -19,3 +19,19 @@ keymap('v', '<C-k>', ":m '<-2<CR>gv=gv", { noremap = true, silent = true })
 keymap('n', '<C-j>', ':m .+1<CR>==', { noremap = true, silent = true })
 keymap('i', '<C-j>', '<Esc>:m .+1<CR>==gi', { noremap = true, silent = true })
 keymap('v', '<C-j>', ":m '>+1<CR>gv=gv", { noremap = true, silent = true })
+
+-- Chia cửa sổ theo chiều dọc
+keymap('n', '<leader>sv', ':vsplit<CR>', { noremap = true, silent = true })
+
+-- Chia cửa sổ theo chiều ngang
+keymap('n', '<leader>sh', ':split<CR>', { noremap = true, silent = true })
+
+-- Đóng cửa sổ hiện tại
+keymap('n', '<leader>sc', ':close<CR>', { noremap = true, silent = true })
+
+-- Di chuyển sang cửa sổ bên trái
+keymap('n', '<C-h>', '<C-w>h', { noremap = true, silent = true })
+
+-- Di chuyển sang cửa sổ bên phải
+keymap('n', '<C-l>', '<C-w>l', { noremap = true, silent = true })
+
