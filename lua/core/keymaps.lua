@@ -35,3 +35,5 @@ keymap('n', '<C-h>', '<C-w>h', { noremap = true, silent = true })
 -- Di chuyển sang cửa sổ bên phải
 keymap('n', '<C-l>', '<C-w>l', { noremap = true, silent = true })
 
+keymap("n", "<C-.>", "<cmd>lua vim.lsp.code_action()<CR", { noremap = true, silent = true })
+

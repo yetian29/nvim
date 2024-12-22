@@ -8,5 +8,6 @@ return {
   require("plugins.trouble"),
   require("plugins.git"),
   require("plugins.which-key"),
-  require("plugins.mason") 
+  require("plugins.mason"),
+  require("plugins.null_ls")
 }
