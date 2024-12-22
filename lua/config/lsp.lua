@@ -9,6 +9,19 @@ for _, lsp in ipairs(servers) do
   })
 end
 
+lspconfig.pyright.setup({
+  capabilities = capabilities,
+    settings = {
+      python = {
+	analysis = {
+	  autoSearchPaths = true,
+	  diagnosticMode = "workspace",
+	  useLibraryCodeForTypes = true
+	}
+      }
+    }
+  })
+
 -- LSP keybindings
 local keymap = vim.keymap.set
 keymap('n', 'gD', vim.lsp.buf.declaration) --  Nhảy đến declaration của biến/hàm

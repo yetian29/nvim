@@ -7,5 +7,6 @@ return {
   require("plugins.litee"),
   require("plugins.trouble"),
   require("plugins.git"),
-  require("plugins.which-key")
+  require("plugins.which-key"),
+  require("plugins.mason") 
 }
