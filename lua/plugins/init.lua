@@ -10,5 +10,6 @@ return {
   require("plugins.which-key"),
   require("plugins.mason"),
   require("plugins.null_ls"),
-  require("plugins.autosave")
+  require("plugins.autosave"),
+  require("plugins.trouble")
 }
