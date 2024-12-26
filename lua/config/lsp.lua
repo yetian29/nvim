@@ -40,3 +40,10 @@ require("lsp_signature").setup({
     border = "rounded"
   }
 })
+
+vim.diagnostic.config({
+    virtual_text = false,  -- Tắt thông báo lỗi dạng text ảo trong file
+    signs = false,         -- Tắt các dấu hiệu bên lề (gutter)
+		underline = false
+})
+

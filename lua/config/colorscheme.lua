@@ -18,5 +18,6 @@ monokai.setup {
             fg = palette.orange,
             bg = palette.base2
         },
-    }
+    },
+    italics = false
 }
