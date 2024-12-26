@@ -1,6 +1,5 @@
 return {
-  "tanvirtin/monokai.nvim",
-  priority = 1000,
+  'tanvirtin/monokai.nvim',
   config = function()
       require("config.colorscheme")
   end,

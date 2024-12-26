@@ -37,3 +37,4 @@ keymap('n', '<C-l>', '<C-w>l', { noremap = true, silent = true })
 
 keymap("n", "<C-.>", "<cmd>lua vim.lsp.code_action()<CR", { noremap = true, silent = true })
 
+keymap('n', '<leader>g', ':Telescope live_grep<CR>', { noremap = true, silent = true })
