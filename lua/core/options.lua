@@ -9,7 +9,9 @@ opt.smartcase = true -- Tự động phân biệt hoa/thường nếu từ khóa
 opt.hlsearch = false -- Không highlight kết quả tìm kiếm
 opt.wrap = false -- Không tự động xuống dòng khi văn bản dài
 opt.breakindent = true -- Giữ thụt lề khi xuống dòng (nếu wrap được bật)
-opt.shiftwidth = 4 -- Thụt lề sẽ là 4 spaces  
+opt.shiftwidth = 2 -- Thụt lề sẽ là 4 spaces  
 opt.splitright = true -- Phân tách cửa sổ dọc 
 opt.splitbelow = true -- Phân tách cửa sổ ngang
 opt.cursorline = true -- Bật màu sắc số dòng hiện tại
+opt.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50"
+
